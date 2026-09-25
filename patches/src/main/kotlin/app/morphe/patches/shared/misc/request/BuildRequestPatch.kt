@@ -34,6 +34,23 @@ internal val buildRequestPatch = bytecodePatch(
     }
 }
 
+/**
+ * Hooks the request URL just before the request builder is created.
+ * [descriptor] must be a static method `(Ljava/lang/String;)Ljava/lang/String;` returning the URL to use.
+ */
+internal fun hookBuildRequestUrl(descriptor: String) {
+    buildRequestMethod.get()!!.apply {
+        addInstructions(
+            builderIndex,
+            """
+                invoke-static { v$urlRegister }, $descriptor(Ljava/lang/String;)Ljava/lang/String;
+                move-result-object v$urlRegister
+            """
+        )
+        builderIndex += 2
+    }
+}
+
 internal fun hookBuildRequest(
     descriptor: String,
     hookHeader: Boolean = false

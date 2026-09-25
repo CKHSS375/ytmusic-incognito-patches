@@ -313,6 +313,15 @@ SABR playback (Spoof video streams turned off)"</string>
     <!-- 'Added to queue' should be translated using the same localized wording YouTube Music displays for the toast. -->
     <string name="morphe_music_playlist_track_tap_added_to_queue">Added to queue</string>
 
+    <!-- privacy.incognito.incognitoModePatch -->
+    <string name="morphe_music_incognito_mode_title">Incognito mode</string>
+    <string name="morphe_music_incognito_mode_summary">While on, tracks you play and searches you make in this app are not saved to your YouTube history. Search results are not personalized while on. Does not affect other devices or apps.</string>
+    <string name="morphe_music_incognito_mode_enabled_toast">Incognito mode on — history not recorded</string>
+    <string name="morphe_music_incognito_mode_disabled_toast">Incognito mode off — history recorded</string>
+    <string name="morphe_music_incognito_mode_failed_toast">Couldn\'t change Incognito mode</string>
+    <string name="morphe_music_incognito_menu_item_off">Incognito</string>
+    <string name="morphe_music_incognito_menu_item_on">Incognito: On</string>
+
     <!-- layout.buttons.hideButtonsPatch -->
     <string name="morphe_music_hide_cast_button_title">Hide Cast button</string>
     <string name="morphe_music_hide_history_button_title">Hide History button</string>
