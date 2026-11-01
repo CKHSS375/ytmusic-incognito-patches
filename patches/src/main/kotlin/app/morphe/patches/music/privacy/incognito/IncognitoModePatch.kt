@@ -20,7 +20,7 @@ import app.morphe.patches.shared.misc.request.hookBuildRequest
 import app.morphe.patches.shared.misc.request.hookBuildRequestUrl
 import app.morphe.patches.shared.misc.settings.preference.SwitchPreference
 import app.morphe.util.ResourceGroup
-import app.morphe.util.cloneParameters
+import app.morphe.patcher.util.cloneParameters
 import app.morphe.util.copyResources
 
 private const val EXTENSION_CLASS = "Lapp/morphe/extension/music/patches/privacy/IncognitoModePatch;"
