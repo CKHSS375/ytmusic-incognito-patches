@@ -4,12 +4,12 @@ group = "app.morphe"
 
 patches {
     about {
-        name = "Morphe Patches"
-        description = "Patches for Morphe"
-        source = "git@github.com:MorpheApp/morphe-patches.git"
-        author = "MorpheApp"
+        name = "YT Music Incognito Patches"
+        description = "Morphe Patches with an added YouTube Music Incognito mode. Based on https://github.com/MorpheApp/morphe-patches"
+        source = "git@github.com:CKHSS375/ytmusic-incognito-patches.git"
+        author = "CKHSS375"
         contact = "na"
-        website = "https://morphe.software"
+        website = "https://github.com/CKHSS375/ytmusic-incognito-patches"
         license = "GNU General Public License v3.0, with additional GPL section 7 requirements"
     }
 }
