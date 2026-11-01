@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-11-01T03:22:15",
+  "description": "## v2.0.0-incognito.1\n\nMorphe Patches v2.0.0 with an added YouTube Music Incognito mode patch.\n\nWhile Incognito mode is on, tracks played and searches made in YouTube Music are not saved to your YouTube history.",
+  "download_url": "https://github.com/CKHSS375/ytmusic-incognito-patches/releases/download/v2.0.0-incognito.1/patches-2.0.0.mpp",
+  "signature_download_url": "",
+  "version": "2.0.0-incognito.1"
+}
